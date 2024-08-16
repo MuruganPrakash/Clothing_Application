@@ -1,0 +1,70 @@
+.orders-display-container {
+    padding: 20px;
+    background-color: #F2F3F6;
+    border-radius: 8px;
+    margin-left: 260px;
+}
+
+.orders-display-filter {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 7px;
+}
+
+.orders-display-filter input,
+.orders-display-filter select {
+    outline: 0;
+    border: 1px solid #F2F3F6;
+    background-color: #F2F3F6;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.orders-display-filter input:focus,
+.orders-display-filter select:focus {
+    background-color: #fff;
+    border: 3px solid #F2F3F6;
+}
+
+.orders-display-filter .customername-div {
+    grid-column: span 3;
+}
+
+.datepicker-div {
+    display: flex;
+    gap: 20px;
+}
+
+.orders-display-filter label {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.orders-display-filter button {
+    background-color: #F5F5F5;
+    border: 0;
+    padding: 10px 20px;
+    align-self: end;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.orders-display-filter button:hover {
+    background-color: #e0e0e0;
+}
+
+.orders-action select {
+    outline: 0;
+    border: 2px solid #e0e0e0;
+    background-color: #F2F3F6;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+
+/* .orders-action select:focus{
+    /* background-color: #fff;
+} */

@@ -1,0 +1,61 @@
+.dashboard {
+    margin-left: 260px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F3F6;
+    padding: 20px;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.dashboard-header-items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #D3D3D3;
+    border-radius: 10px;
+    width: 290px;
+
+}
+
+.dashboard-header-items .dashboard-header-icon {
+    padding: 12px;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.dashboard-header-content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.dashboard-header-content p {
+    margin: 0;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.dashboard-chart-div{
+    display: flex;
+    margin: 10px;
+}
+
+.weekly-analysis {
+    width: 50%;
+    height: 400px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-sizing: border-box;
+}

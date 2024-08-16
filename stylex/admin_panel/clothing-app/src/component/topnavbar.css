@@ -1,0 +1,19 @@
+.top-navbar {
+    background-color:#fff;
+    color: #000; 
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  */
+    margin-left: 250px;
+    
+  }
+  .navbar-spacer {
+    flex-grow: 1; 
+  }
+  
+  .profile-icon {
+    color: #000; 
+  }
+  
+  .profile-icon:hover {
+    color: #555; 
+  }
+  
