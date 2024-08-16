@@ -1,0 +1,8 @@
+.productimage img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+.productimage img:hover {
+    border: 1px solid #777;
+} 

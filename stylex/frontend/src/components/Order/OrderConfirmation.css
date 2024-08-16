@@ -1,0 +1,48 @@
+.order-confirmation {
+    text-align: center;
+    padding: 20px;
+}
+
+.order-confirmation h1 {
+    color: #4CAF50;
+}
+
+.order-summary {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+.order-summary h2,
+.order-summary h3 {
+    margin-top: 0;
+}
+
+.order-summary p {
+    margin: 5px 0;
+}
+
+.order-summary .items ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-summary .items li {
+    margin: 5px 0;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
